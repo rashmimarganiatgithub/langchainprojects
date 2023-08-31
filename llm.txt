@@ -1,0 +1,36 @@
+﻿A large language model (LLM) is a type of machine learning model that can perform a variety of natural language processing (NLP) tasks such as generating and classifying text, answering questions in a conversational manner, and translating text from one language to another. The label “large” refers to the number of values (parameters) the language model can change autonomously as it learns. Some of the most successful LLMs have hundreds of billions of parameters.
+LLMs are trained with immense amounts of data and use self-supervised learning to predict the next token in a sentence, given the surrounding context. The process is repeated over and over until the model reaches an acceptable level of accuracy.
+Once an LLM has been trained, it can be fine-tuned for a wide range of NLP tasks, including:
+* Building conversational chatbots like ChatGPT.
+* Generating text for product descriptions, blog posts and articles.
+* Answering frequently asked questions (FAQs) and routing customer inquiries to the most appropriate human.
+* Analyzing customer feedback from email, social media posts and product reviews.
+* Translating business content into different languages.
+* Classifying and categorizing large amounts of text data for more efficient processing and analysis.
+Techopedia Explains
+A language model is a type of artificial intelligence model that is trained to understand and generate human language. It learns the patterns, structures, and relationships within a given language and has traditionally been used for narrow AI tasks such as text translation. The quality of a language model depends on its size, the amount and diversity of data it was trained on, and the complexity of the learning algorithms used during training.
+A large language model refers to a specific class of language model that has significantly more parameters than traditional language models. Parameters are the internal variables of the model that are learned during the training process and represent the knowledge the model has acquired.
+In recent years, the field of natural language processing has seen a trend towards building larger and more powerful language models because of advancements in hardware capabilities, the availability of extremely large datasets, and advancements in training techniques. Large language models, which have billions of parameters, require significantly more computational resources and training data than language models of the past, which makes them more challenging and more expensive to develop and deploy.
+How Are Large Language Models Trained?
+Most LLMs are pre-trained on a large, general-purpose dataset. The purpose of pre-training is for the model to learn high-level features that can be transferred to the fine-tuning stage for specific tasks.
+The training process of a large language model involves:
+* Pre-processing the text data to convert it into a numerical representation that can be fed into the model.
+* Randomly assigning the model’s parameters.
+* Feeding the numerical representation of the text data into the model.
+* Using a loss function to measure the difference between the model’s outputs and the actual next word in a sentence.
+* Optimizing the model’s parameters to minimize loss.
+* Repeating the process until the model’s outputs reach an acceptable level of accuracy.
+How Do Large Language Models Work?
+A large language model uses deep neural networks to generate outputs based on patterns learned from training data.
+Typically, a large language model is an implementation of a transformer-based architecture.
+Unlike recurrent neural networks (RNNs) which use recurrence as the main mechanism for capturing relationships between tokens in a sequence, transformer neural networks use self-attention as their main mechanism for capturing relationships.
+They calculate a weighted sum for an input sequence and dynamically determine which tokens in the sequence are most relevant to each other.
+The relationships between tokens in a sequence are calculated using attention scores that represent how import a token is in regards to the other tokens in the text sequence.
+Examples of Large Language Models
+Some of the most popular large language models are:
+GPT-3 (Generative Pretrained Transformer 3) – developed by OpenAI.
+BERT (Bidirectional Encoder Representations from Transformers) – developed by Google.
+RoBERTa (Robustly Optimized BERT Approach) – developed by Facebook AI.
+T5 (Text-to-Text Transfer Transformer) – developed by Google.
+CTRL (Conditional Transformer Language Model) – developed by Salesforce Research.
+Megatron-Turing – developed by NVIDIA
